@@ -12,12 +12,12 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 # Priredbeni seznam
 ## Vhodi
 | Oznaka v načrtu| Naslov operanda | Vrsta kontakta | Pomen |
-| ----------- | ------------------ |                |       |
-| Header      | Title              |                |       |
-| Paragraph   | Text               |                |       |
+| -------------- | --------------- | -------------- | ----- |
+| Header         | Title           |                |       |
+| Paragraph      | Text            |                |       |
 
 ## Izhodi
-| Oznaka v načrtu| Naslov operanda | Aktiven pri | Pomen |
-| ----------- | ------------------ |             |       |
-| Header      | Title              |             |       |
-| Paragraph   | Text               |             |       |
+| Oznaka v načrtu| Naslov operanda | Aktiven pri    | Pomen |
+| -------------- | --------------- | -------------- | ----- |
+| Header         | Title           |                |       |
+| Paragraph      | Text            |                |       |
