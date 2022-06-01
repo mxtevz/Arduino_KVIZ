@@ -8,6 +8,7 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 - 1x zelena LED
 - 1x rele
 - 1x motor
+- x upor
 
 ## Priredbeni seznam
 ### Vhodi
