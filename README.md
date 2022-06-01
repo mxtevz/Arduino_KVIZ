@@ -24,3 +24,9 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 | -------------- | --------------- | -------------- | ----- |
 | Header         | Title           |                |       |
 | Paragraph      | Text            |                |       |
+
+## Breadboard vezava
+
+## Shema
+
+## Komentarji
