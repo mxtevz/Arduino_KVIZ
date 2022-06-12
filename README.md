@@ -11,20 +11,23 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 - 1x rele
 - 1x motor
 - 1x zaščitna dioda
-- x upor
+- 4x upor 1kΩ
+- 1x upor 220Ω
 
 ## Priredbeni seznam
 ### Vhodi
 | Oznaka v načrtu| Naslov operanda | Vrsta kontakta | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| Header         | Title           |                |       |
-| Paragraph      | Text            |                |       |
+| S1         | X0           |  N.C.              | Se vključi sistem za hidravlično dviganje mize (zelena LED)      |
+| S2      | X1            |    N.C.            |   Paleta je zapustila dvižno mizo in da se lahko miza spusti v spodnjo lego     |
+| S3      | X2            |    N.C.            |   Se vključi transport palete na trak 2 (motorček se vklopi preko releja)     |
+| S4      | X3            |    N.C.            |   miza se ustavi     |
 
 ### Izhodi
 | Oznaka v načrtu| Naslov operanda | Aktiven pri    | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| Header         | Title           |                |       |
-| Paragraph      | Text            |                |       |
+| LED1         | Y0           | 1              |       |
+| M1      | Y1            |  1             | Motor se zažene      |
 
 ## Breadboard vezava
 
