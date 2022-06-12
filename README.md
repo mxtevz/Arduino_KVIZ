@@ -34,3 +34,4 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 ## Shema
 ![](Projektna_schem.png)
 ## Komentarji
+Naloga ni bila zelo zahtevna, čeprav sva imela nekaj težav z vezavo. 
