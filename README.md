@@ -29,5 +29,5 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 ## Breadboard vezava
 
 ## Shema
-
+![](Projektna_schem.png)
 ## Komentarji
