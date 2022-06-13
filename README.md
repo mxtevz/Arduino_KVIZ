@@ -30,7 +30,7 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 | M1      | Y1            |  1             | Se vključi transport palete na trak 2      |
 
 ## Breadboard vezava
-
+![](breadboard_bb.png)
 ## Shema
 ![](Projektna_schem.png)
 ## Komentarji
