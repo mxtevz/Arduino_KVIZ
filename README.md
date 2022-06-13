@@ -18,20 +18,20 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 ### Vhodi
 | Oznaka v načrtu| Naslov operanda | Vrsta kontakta | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| S1         | X0           |  N.C.              | Se vključi sistem za hidravlično dviganje mize (zelena LED)      |
-| S2      | X1            |    N.C.            |   Paleta je zapustila dvižno mizo in da se lahko miza spusti v spodnjo lego     |
-| S3      | X2            |    N.C.            |   Se vključi transport palete na trak 2 (motorček se vklopi preko releja)     |
-| S4      | X3            |    N.C.            |   miza se ustavi     |
+| S1         | X0           |  N.C.              | Senzor 1      |
+| S2      | X1            |    N.C.            |   Senzor 2     |
+| S3      | X2            |    N.C.            |   Senzor 3     |
+| S4      | X3            |    N.C.            |   Senzor 4     |
 
 ### Izhodi
 | Oznaka v načrtu| Naslov operanda | Aktiven pri    | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| LED1         | Y0           | 1              |       |
-| M1      | Y1            |  1             | Motor se zažene      |
+| LED1         | Y0           | 1              | Hidravlično dviganje mize      |
+| M1      | Y1            |  1             | Se vključi transport palete na trak 2      |
 
 ## Breadboard vezava
 
 ## Shema
 ![](Projektna_schem.png)
 ## Komentarji
-Naloga ni bila zelo zahtevna, čeprav sva imela nekaj težav z vezavo. 
+Naloga ni bila zelo zahtevna, čeprav sva imela nekaj težav z vezavo, zato nimava posnetka delovanja.
