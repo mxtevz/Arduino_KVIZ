@@ -11,23 +11,27 @@ Krmiljenje transporta palet: Paleta se pomika po transportnem traku 1 na dvižno
 - 1x rele
 - 1x motor
 - 1x zaščitna dioda
-- x upor
+- 4x upor 1kΩ
+- 1x upor 220Ω
 
 ## Priredbeni seznam
 ### Vhodi
 | Oznaka v načrtu| Naslov operanda | Vrsta kontakta | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| Header         | Title           |                |       |
-| Paragraph      | Text            |                |       |
+| S1         | X0           |  N.C.              | Senzor 1      |
+| S2      | X1            |    N.C.            |   Senzor 2     |
+| S3      | X2            |    N.C.            |   Senzor 3     |
+| S4      | X3            |    N.C.            |   Senzor 4     |
 
 ### Izhodi
 | Oznaka v načrtu| Naslov operanda | Aktiven pri    | Pomen |
 | -------------- | --------------- | -------------- | ----- |
-| Header         | Title           |                |       |
-| Paragraph      | Text            |                |       |
+| LED1         | Y0           | 1              | Hidravlično dviganje mize      |
+| M1      | Y1            |  1             | Se vključi transport palete na trak 2      |
 
 ## Breadboard vezava
 
 ## Shema
 ![](Projektna_schem.png)
 ## Komentarji
+Naloga ni bila zelo zahtevna, čeprav sva imela nekaj težav z vezavo, zato nimava posnetka delovanja.
